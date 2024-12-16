@@ -11,7 +11,9 @@ pros::Imu Inertial(1);
  */
 void initialize()
 {
-  Inertial.reset(true); // calibrate the inertial sensor and wait until it finishes
+  pros::lcd::initialize();
+  Inertial.reset(true);         // calibrate the inertial sensor and wait until it finishes
+  Controller.rumble("....");    // 4 short rumbles
 }
 
 /**
