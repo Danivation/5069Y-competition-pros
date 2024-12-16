@@ -1,7 +1,8 @@
 #ifndef CUSTOM_CONFIG_H
 #define CUSTOM_CONFIG_H
 
-#include "api.h"
+//#include "api.h"
+#include "main.h"
 
 pros::Controller Controller(CONTROLLER_MASTER);
 pros::Imu Inertial(1);                              // port 1
